@@ -1,0 +1,63 @@
+/* Estilos del título */
+#h1 {
+  text-align: center;
+  color: white; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Estilos de los cuadrados */
+.square {
+  float: left;
+  width: 30%;
+  height: 0;
+  padding-bottom: 30%;
+  background-color: white;
+  margin: 1.66%;
+  border-radius: 15pt;
+  transition-duration: 0.6s;
+}
+
+/* Contenedor */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Barra superior */
+#stripe {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/* Botones seleccionados */
+.selected {
+  background-color: tomato;
+}
+
+/* Botones */
+button {
+  background-color: inherit;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  height: 100%;
+  outline: none;
+  border: none;
+  transition: all 0.4s;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button:hover {
+  color: white;
+  background: yellowgreen;
+}
+
+/* Mensajes */
+#message {
+  display: inline-block;
+  width: 15%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black; 
+}
